@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour {
 
         rb.position = new Vector3
             (
-                Mathf.Clamp(rb.position.x, boundary.zMin, boundary.xMax), 
+                Mathf.Clamp(rb.position.x, boundary.xMin, boundary.xMax), 
                 0.0f,
                 Mathf.Clamp(rb.position.z, boundary.zMin, boundary.zMax)
             );
